@@ -53,7 +53,7 @@ function initPushwoosh()
     });
  
     //initialize the plugin
-    pushNotification.onDeviceReady({ appid: "BFF01-95906, serviceName: "" });
+    pushNotification.onDeviceReady({ appid: "BFF01-95906", serviceName: "" });
  
     //register for pushes
     pushNotification.registerDevice(
